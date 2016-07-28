@@ -51,9 +51,9 @@ public class MyImgProc {
         int hueStart=0;
         int saturationStart = 0;
         int valueStart = 0;
-        int hueStop =0;
-        int saturationStop=0;
-        int valueStop = 0;
+        int hueStop =20;
+        int saturationStop=10;
+        int valueStop = 10;
         Scalar minValues = new Scalar(hueStart,saturationStart,
                 valueStart);
         Scalar maxValues = new Scalar(hueStop, saturationStop,
